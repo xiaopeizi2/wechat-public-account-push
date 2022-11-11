@@ -11,7 +11,7 @@ const USER_CONFIG = {
   APP_ID: 'wxaf9e06f9c13ba9d8',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'a0083827d8268c7199b537106f45dbeb',
+  APP_SECRET: '80c17063b218640b1c1afa5e36912012',
 
   PROVINCE: '河南',
   CITY: '郑州',
@@ -21,15 +21,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '裴静茹宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'osAJk6sRgGqvCQMilb5mbd8vNkog',
+      id: 'osAJk6tGWhyVgF3or9wa8kzvU9iI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	Foy8zcZBvsKzWpJeg9Qvhg_nsKjoBlXmJuoLH1484FA',
+      useTemplateId: 'Foy8zcZBvsKzWpJeg9Qvhg_nsKjoBlXmJuoLH1484FA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-12',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2004', date: '08-12',
+          type: '*生日', name: '裴宝贝', year: '2004', date: '08-12',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
@@ -42,7 +42,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '' },
+        { keyword: 'love_day', date: '2004-04-22' },
       ],
     },
   ],
